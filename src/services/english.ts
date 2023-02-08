@@ -6,14 +6,10 @@ type ResponseApi = {
 
 const EnglishService = {
   fixIt: async (input: string) => {
-    try {
-      const res = await axios.post('/api/fix-english', { text: input });
-      const { text }: ResponseApi = res.data;
+    const res = await axios.post('/api/fix-english', { text: input });
+    const { text }: ResponseApi = res.data;
 
-      return text;
-    } catch (error) {
-      console.log(error);
-    }
+    return text;
   }
 };
 
