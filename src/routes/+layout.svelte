@@ -1,18 +1,16 @@
 <script>
   import '../app.css';
+  import Header from '../components/Header.svelte';
 </script>
+
+<svelte:head>
+  <title>Fix My English!</title>
+  <meta name="description" content="This is a spell checker generator." />
+</svelte:head>
 
 <div class="container mx-auto flex items-center h-screen px-10">
   <div class="h-fit w-full">
-    <header class="text-center">
-      <h1 class="text-center font-bold text-5xl">Fix My English! 🇬🇧</h1>
-
-      <p class="py-12 text-lg text-gray-300">
-        Write <span class="font-bold text-green-500">any</span> text in English
-        that you want to be
-        <span class="font-bold text-green-500">corrected</span>!
-      </p>
-    </header>
+    <Header />
 
     <main>
       <slot />
