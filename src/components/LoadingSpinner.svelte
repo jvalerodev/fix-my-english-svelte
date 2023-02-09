@@ -5,5 +5,5 @@
 <div
   class="flex justify-center items-center w-screen h-screen top-0 left-0 absolute z-50"
 >
-  <SyncLoader color="#3B82F6" size="70" unit="px" />
+  <SyncLoader color="#2563EB" size="70" unit="px" />
 </div>

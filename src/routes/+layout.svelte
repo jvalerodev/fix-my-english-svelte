@@ -20,7 +20,11 @@
 
 <style>
   :global(body) {
-    background-color: #000;
+    background-image: linear-gradient(
+      109.6deg,
+      rgba(0, 0, 0, 1) 11.2%,
+      rgb(0, 0, 30) 78.9%
+    );
     color: #fff;
   }
 </style>

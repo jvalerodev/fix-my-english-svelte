@@ -26,7 +26,7 @@
     <div class="text-center mt-5">
       <button
         type="button"
-        class="bg-green-500 w-1/4 font-bold upp px-6 py-2 rounded-full hover:bg-green-600 hover:scale-105 transition duration-300"
+        class="bg-green-600 w-1/4 font-bold upp px-6 py-2 rounded-full hover:bg-green-700 hover:scale-105 transition duration-300"
         on:click={handleCopy}
       >
         {copy}
